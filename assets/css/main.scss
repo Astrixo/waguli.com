@@ -1,0 +1,24 @@
+---
+---
+
+@import "minimal-mistakes/skins/default";
+@import "minimal-mistakes";
+
+.feature__item img {
+  display: block;
+  width: 66%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.feature__item {
+  text-align: center;
+}
+
+.page__content {
+  font-size: 0.9em;
+}
+
+.page__content h2 {
+  font-size: 1.35em;
+}

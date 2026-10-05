@@ -1,0 +1,56 @@
+title: "Waguli Lodge 318"
+name: "Waguli Lodge 318"
+description: "Order of the Arrow lodge of the Northwest Georgia Council"
+url: "https://waguli.astrixo.net"
+baseurl: ""
+repository: "Astrixo/waguli.com"
+
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+minimal_mistakes_skin: "default"
+
+locale: "en-US"
+timezone: "America/New_York"
+
+logo: "/assets/images/whippoorwill-full-color.png"
+masthead_title: "Waguli Lodge 318"
+
+search: true
+search_full_content: true
+
+breadcrumbs: true
+words_per_minute: 200
+
+author:
+  name: "Waguli Lodge 318"
+  bio: "Northwest Georgia Council, Order of the Arrow"
+  location: "Northwest Georgia"
+
+footer:
+  links:
+    - label: "Order of the Arrow"
+      url: "https://oa-scouting.org/"
+    - label: "Northwest Georgia Council"
+      url: "https://www.nwgascouting.org/"
+    - label: "Camp Sidney Dew"
+      url: "https://www.nwgascouting.org/campsidneydew"
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+include:
+  - _pages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

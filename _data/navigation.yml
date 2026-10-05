@@ -1,0 +1,15 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Calendar"
+    url: /calendar/
+  - title: "The Whip"
+    url: /newsletter/
+  - title: "Membership"
+    url: /membership/
+  - title: "Get Involved"
+    url: /get-involved/
+  - title: "Resources"
+    url: /resources/
